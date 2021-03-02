@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-th {
+.menu__table th {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #2244aa;
@@ -18,12 +18,11 @@ th {
   color: #fff;
 }
 
-tr:nth-child(3) td,
-tr:nth-child(5) td{
+.menu__table tr:nth-child(even){
   background-color: #ecf1f2;
 }
 
-td {
+.menu__table td {
   padding-top: 10px;
   padding-bottom: 10px;
   border: 1px solid #dedede;
@@ -31,7 +30,7 @@ td {
   line-height: 22px;
 }
 
-tr:last-child {
+.menu__table tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
