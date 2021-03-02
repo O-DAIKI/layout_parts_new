@@ -9,113 +9,67 @@
   background-color: #ECF1F2;
 }
 
-.num__1 {
+.box__style {
   width: 100px;
   height: 100px;
-  background-color: #ffefd3;
-  text-align: center;
-  font-weight: bold;
+  position: absolute;
   line-height: 100px;
   font-size: 30px;
-  position: absolute;
+  text-align: center;
+  font-weight: bold;
+}
+
+.num__1 {
+  background-color: #ffefd3;
   top: 40px;
   left: 200px;
   z-index: 1;
 }
 
 .num__2 {
-  width: 100px;
-  height: 100px;
   background-color: #7084de;
-  text-align: center;
-  font-weight: bold;
-  line-height: 100px;
-  font-size: 30px;
-  position: absolute;
   top: 120px;
   left: 280px;
   z-index: 2;
 }
 
 .num__3 {
-  width: 100px;
-  height: 100px;
   background-color: #d0ecea;
-  text-align: center;
-  font-weight: bold;
-  line-height: 100px;
-  font-size: 30px;
-  position: absolute;
   top: 200px;
   left: 360px;
   z-index: 3;
 }
 
 .num__4 {
-  width: 100px;
-  height: 100px;
   background-color: #8b7a5e;
-  text-align: center;
-  font-weight: bold;
-  line-height: 100px;
-  font-size: 30px;
-  position: absolute;
   top: 280px;
   left: 280px;
   z-index: 4;
 }
 
 .num__5 {
-  width: 100px;
-  height: 100px;
   background-color: #9fd6d2;
-  text-align: center;
-  font-weight: bold;
-  line-height: 100px;
-  font-size: 30px;
-  position: absolute;
   top: 360px;
   left: 200px;
   z-index: 5;
 }
 
 .num__6 {
-  width: 100px;
-  height: 100px;
   background-color: #fffee4;
-  text-align: center;
-  font-weight: bold;
-  line-height: 100px;
-  font-size: 30px;
-  position: absolute;
   top: 280px;
   left: 120px;
   z-index: 6;
 }
 
 .num__7 {
-  width: 100px;
-  height: 100px;
   background-color: #deae70;
-  text-align: center;
-  font-weight: bold;
-  line-height: 100px;
-  font-size: 30px;
-  position: absolute;
   top: 200px;
   left: 40px;
   z-index: 7;
 }
 
 .num__8 {
-  width: 100px;
-  height: 100px;
   background-color: #de70cf;
-  text-align: center;
-  font-weight: bold;
-  line-height: 100px;
-  font-size: 30px;
-  position: absolute;
   top: 120px;
   left: 120px;
   z-index: 8;
@@ -133,13 +87,7 @@
 
 .num__9 {
   position: fixed;
-  width: 100px;
-  height: 100px;
   background-color: #2b69a3;
-  text-align: center;
-  font-weight: bold;
-  line-height: 100px;
-  font-size: 30px;
   top: 10px;
   left: 10px;
 }
