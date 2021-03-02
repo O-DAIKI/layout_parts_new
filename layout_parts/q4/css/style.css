@@ -7,12 +7,13 @@
 }
 
 .q4__bar {
+  margin-top: 20px;
   display: table;
   width: 100%;
 }
 
-.q4__bar:last-child {
-  margin-top: 20px;
+.q4__bar:first-child {
+  margin-top: 0px;
 }
 
 .bar__style {
