@@ -1,5 +1,89 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.float__box:nth-child(odd) {
+  margin-left: 0px;
+}
+
+.float__box {
+  font-size: 16px;
+  margin-left: 50px;
+  width: 225px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.table__parent {
+  display: table;
+  table-layout: fixed;
+}
+
+.table__child:nth-child(even) {
+  padding-right: 0px;
+}
+
+.table__child {
+  width: 225px;
+  padding-right: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+/* inline-blockで生じる余白を埋める */
+.inlineblock__parent {
+  font-size: 0;
+}
+
+.inlineblock__child:nth-child(even) {
+  margin-right: 0;
+}
+
+.inlineblock__child {
+  width: 225px;
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.flex__parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex__child {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.font__default {
+  font-size: 0;
+}
+
+.static__box {
+  width: 300px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 16px;
+  float: left;
+}
+
+.flexible__box {
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 16px;
+}
 
 /* 回答はここに書いてね */
