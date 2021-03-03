@@ -24,13 +24,13 @@
   table-layout: fixed;
 }
 
-.table__child:nth-child(even) {
-  padding-right: 0px;
+.table__child:nth-child(odd) {
+  padding-left: 0;
 }
 
 .table__child {
   width: 225px;
-  padding-right: 50px;
+  padding-left: 50px;
   display: table-cell;
   vertical-align: middle;
   font-size: 16px;
@@ -41,8 +41,8 @@
   font-size: 0;
 }
 
-.inlineblock__child:nth-child(even) {
-  margin-right: 0;
+.inlineblock__child:nth-child(odd) {
+  margin-left: 0;
 }
 
 .inlineblock__child {
@@ -51,7 +51,7 @@
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .flex__parent {
@@ -73,8 +73,8 @@
   width: 300px;
   display: inline-block;
   box-sizing: border-box;
+  vertical-align: top;
   font-size: 16px;
-  float: left;
 }
 
 .flexible__box {
